@@ -1,6 +1,6 @@
 # Self Journal: a first-person, append-only notebook
 
-> AstrBot plugin · The model writes its own entries; injected as-is
+> AstrBot plugin · First-person narrative, injected verbatim
 
 ## The problem
 
