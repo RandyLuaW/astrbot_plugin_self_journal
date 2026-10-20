@@ -1,0 +1,37 @@
+{
+  "enabled": {
+    "type": "bool",
+    "default": true,
+    "description": "启用自写日记。关闭后不注入、也不能写。"
+  },
+  "inject_enabled": {
+    "type": "bool",
+    "default": true,
+    "description": "每轮把最近几条日记原样注入请求末尾。关闭后她仍能写，但看不到。"
+  },
+  "recent_n": {
+    "type": "int",
+    "default": 5,
+    "description": "每轮注入最近多少条。太多会稀释注意力，建议 3-8。"
+  },
+  "max_items": {
+    "type": "int",
+    "default": 12,
+    "description": "注入总条数上限（最近几条 + 标记为重要的旧条目）。"
+  },
+  "max_entry_chars": {
+    "type": "int",
+    "default": 200,
+    "description": "单条字数上限。超过会被拒绝，逼她挑最想说的一句。"
+  },
+  "max_per_hour": {
+    "type": "int",
+    "default": 4,
+    "description": "每小时最多写几条，防止刷屏式写日记。"
+  },
+  "max_per_day": {
+    "type": "int",
+    "default": 12,
+    "description": "每天最多写几条。"
+  }
+}

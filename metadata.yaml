@@ -1,0 +1,15 @@
+name: astrbot_plugin_self_journal
+display_name: 自写日记
+desc: "给她一个自己的本子：第一人称、自己写、append-only、可改可弃用。每轮把最近几条原样注入，不做检索也不做摘要。和 iris_memory 分工——那边记别人是谁，这边记我是谁。不自动抽取对话，不调用任何模型润色。"
+short_desc: 第一人称自写记忆，可改可弃用
+author: Randy Lua
+repo: https://github.com/RandyLuaW/astrbot_plugin_self_journal
+version: 1.0.0
+astrbot_version: ">=4.24.0"
+support_platforms:
+  - aiocqhttp
+tags:
+  - 记忆
+  - 人格
+  - 第一人称
+  - 日记
